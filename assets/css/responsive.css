@@ -1,0 +1,462 @@
+/**
+ * ============================================
+ * RESPONSIVE CSS - Halt Group
+ * Mobile First Design
+ * ============================================
+ * 
+ * Breakpoints:
+ * - Mobile: < 768px
+ * - Tablet: 768px - 1024px
+ * - Desktop: > 1024px
+ */
+
+/* ============================================
+   TABLET (768px - 1024px)
+   ============================================ */
+@media (max-width: 1024px) {
+    
+    /* Typography */
+    h1 { font-size: 2.5rem; }
+    h2 { font-size: 2rem; }
+    h3 { font-size: 1.75rem; }
+    
+    .container {
+        padding: 0 1.5rem;
+    }
+    
+    /* Header */
+    .header-content {
+        min-height: 100px;
+    }
+    
+    .logo-image {
+        height: 60px;
+    }
+    
+    .nav-list {
+        gap: 1.5rem;
+    }
+    
+    .nav-link {
+        font-size: 0.9rem;
+    }
+    
+    /* Hero */
+    .hero-title {
+        font-size: 2.75rem;
+    }
+    
+    .hero-subtitle {
+        font-size: 1.25rem;
+    }
+    
+    /* Values & Services Grid */
+    .values-grid,
+    .services-grid {
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        gap: 2rem;
+    }
+    
+    /* Stats */
+    .stats-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 2rem;
+    }
+    
+    .stat-number {
+        font-size: 3rem;
+    }
+    
+    /* Footer */
+    .footer-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+/* ============================================
+   MOBILE (< 768px)
+   ============================================ */
+@media (max-width: 768px) {
+    
+    /* Typography */
+    h1 { font-size: 2rem; }
+    h2 { font-size: 1.75rem; }
+    h3 { font-size: 1.5rem; }
+    
+    .container {
+        padding: 0 1rem;
+    }
+    
+    /* Utility Bar */
+    .utility-bar {
+        padding: 0.75rem 0;
+        font-size: 0.75rem;
+    }
+    
+    .utility-content {
+        flex-direction: column;
+        text-align: center;
+        gap: 0.5rem;
+    }
+    
+    .utility-left,
+    .utility-right {
+        flex-direction: column;
+        gap: 0.5rem;
+        width: 100%;
+    }
+    
+    .utility-item {
+        justify-content: center;
+        font-size: 0.75rem;
+    }
+    
+    /* Header */
+    .header-content {
+        min-height: 80px;
+        padding: 1rem 0;
+    }
+    
+    .logo-image {
+        height: 50px;
+    }
+    
+    /* Hide Desktop Nav, Show Mobile Menu */
+    .desktop-nav {
+        display: none;
+    }
+    
+    .mobile-menu-toggle {
+        display: flex;
+    }
+    
+    .mobile-nav.active {
+        display: block;
+    }
+    
+    /* Hero Section */
+    .hero-section {
+        min-height: 500px;
+        padding: 2rem 0;
+    }
+    
+    .hero-title {
+        font-size: 2rem;
+        margin-bottom: 1rem;
+    }
+    
+    .hero-subtitle {
+        font-size: 1.125rem;
+        margin-bottom: 2rem;
+    }
+    
+    .hero-buttons {
+        flex-direction: column;
+        gap: 1rem;
+    }
+    
+    .btn {
+        width: 100%;
+        max-width: 300px;
+        padding: 0.75rem 2rem;
+    }
+    
+    .btn-large {
+        padding: 1rem 2.5rem;
+    }
+    
+    /* Scroll Indicator - Hide on mobile */
+    .scroll-indicator {
+        display: none;
+    }
+    
+    /* Sections Spacing */
+    .intro-section,
+    .values-section,
+    .services-section,
+    .cta-section,
+    .clients-section {
+        padding: 3rem 0;
+    }
+    
+    .stats-section {
+        padding: 3rem 0;
+    }
+    
+    /* Section Headers */
+    .section-title {
+        font-size: 2rem;
+    }
+    
+    .section-subtitle {
+        font-size: 1rem;
+    }
+    
+    /* Values Grid */
+    .values-grid {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+    }
+    
+    .value-card {
+        padding: 2rem 1.5rem;
+    }
+    
+    .value-icon {
+        width: 60px;
+        height: 60px;
+    }
+    
+    .value-title {
+        font-size: 1.25rem;
+    }
+    
+    .value-description {
+        font-size: 0.95rem;
+    }
+    
+    /* Services Grid */
+    .services-grid {
+        grid-template-columns: 1fr;
+        gap: 1.5rem;
+    }
+    
+    .service-card {
+        padding: 2rem 1.5rem;
+    }
+    
+    .service-icon {
+        font-size: 3rem;
+    }
+    
+    .service-title {
+        font-size: 1.25rem;
+    }
+    
+    /* Stats Section */
+    .stats-grid {
+        grid-template-columns: 1fr 1fr;
+        gap: 1.5rem;
+    }
+    
+    .stat-item {
+        padding: 1.5rem 0.5rem;
+    }
+    
+    .stat-number {
+        font-size: 2.5rem;
+    }
+    
+    .stat-label {
+        font-size: 1rem;
+    }
+    
+    /* CTA Section */
+    .cta-title {
+        font-size: 1.75rem;
+    }
+    
+    .cta-description {
+        font-size: 1rem;
+    }
+    
+    /* Clients Logos */
+    .clients-logos {
+        gap: 1.5rem;
+    }
+    
+    .client-logo {
+        width: 120px;
+        height: 60px;
+    }
+    
+    /* Footer */
+    .footer-top {
+        padding: 3rem 0 1.5rem;
+    }
+    
+    .footer-grid {
+        grid-template-columns: 1fr;
+        gap: 2.5rem;
+    }
+    
+    .footer-column {
+        text-align: center;
+    }
+    
+    .footer-logo-image {
+        height: 50px;
+        margin: 0 auto 1.5rem;
+    }
+    
+    .footer-social {
+        justify-content: center;
+    }
+    
+    .footer-links,
+    .footer-contact {
+        text-align: left;
+    }
+    
+    .footer-contact li {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 0.5rem;
+    }
+    
+    .footer-bottom-content {
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    .footer-legal {
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+    
+    /* Back to Top Button */
+    .back-to-top {
+        bottom: 1rem;
+        right: 1rem;
+        width: 45px;
+        height: 45px;
+    }
+}
+
+/* ============================================
+   SMALL MOBILE (< 480px)
+   ============================================ */
+@media (max-width: 480px) {
+    
+    /* Typography */
+    h1 { font-size: 1.75rem; }
+    h2 { font-size: 1.5rem; }
+    h3 { font-size: 1.25rem; }
+    
+    .hero-title {
+        font-size: 1.75rem;
+    }
+    
+    .hero-subtitle {
+        font-size: 1rem;
+    }
+    
+    .section-title {
+        font-size: 1.75rem;
+    }
+    
+    /* Buttons */
+    .btn {
+        padding: 0.675rem 1.5rem;
+        font-size: 0.9rem;
+    }
+    
+    /* Stats Grid - Stack vertically */
+    .stats-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .stat-number {
+        font-size: 2rem;
+    }
+    
+    .stat-label {
+        font-size: 0.9rem;
+    }
+    
+    /* CTA */
+    .cta-title {
+        font-size: 1.5rem;
+    }
+    
+    .cta-description {
+        font-size: 0.95rem;
+    }
+}
+
+/* ============================================
+   LANDSCAPE MOBILE (< 768px height)
+   ============================================ */
+@media (max-height: 768px) and (orientation: landscape) {
+    
+    .hero-section {
+        min-height: 400px;
+    }
+    
+    .hero-title {
+        font-size: 2rem;
+    }
+    
+    .hero-subtitle {
+        font-size: 1rem;
+        margin-bottom: 1.5rem;
+    }
+    
+    .utility-bar {
+        display: none;
+    }
+    
+    .header-content {
+        min-height: 70px;
+    }
+}
+
+/* ============================================
+   PRINT STYLES
+   ============================================ */
+@media print {
+    
+    .utility-bar,
+    .mobile-menu-toggle,
+    .mobile-nav,
+    .back-to-top,
+    .hero-buttons,
+    .footer-social {
+        display: none !important;
+    }
+    
+    body {
+        color: #000;
+        background: #fff;
+    }
+    
+    .main-header {
+        position: static;
+        box-shadow: none;
+        border-bottom: 1px solid #000;
+    }
+    
+    a {
+        color: #000;
+        text-decoration: underline;
+    }
+    
+    .hero-section,
+    .stats-section,
+    .cta-section {
+        background: #fff !important;
+        color: #000 !important;
+    }
+}
+
+/* ============================================
+   ACCESSIBILITY - REDUCED MOTION
+   ============================================ */
+@media (prefers-reduced-motion: reduce) {
+    
+    *,
+    *::before,
+    *::after {
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
+        scroll-behavior: auto !important;
+    }
+}
+
+/* ============================================
+   DARK MODE SUPPORT (pour le futur)
+   ============================================ */
+@media (prefers-color-scheme: dark) {
+    /* À implémenter si nécessaire */
+}
