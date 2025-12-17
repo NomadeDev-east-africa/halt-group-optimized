@@ -1,0 +1,50 @@
+# Robots.txt pour Halt Group Djibouti
+# Mise à jour: 16 Décembre 2024
+
+# Autorisation pour tous les robots
+User-agent: *
+Allow: /
+
+# Désactiver l'indexation des fichiers sensibles
+Disallow: /assets/js/
+Disallow: /assets/css/
+Disallow: /cgi-bin/
+Disallow: /tmp/
+Disallow: /*.json$
+Disallow: /*.xml$ (except sitemap.xml)
+
+# Autoriser les ressources importantes pour le SEO
+Allow: /assets/images/
+Allow: /assets/fonts/
+
+# Sitemap XML
+Sitemap: https://www.haltgroup.dj/sitemap.xml
+
+# Délai entre les requêtes (en secondes)
+Crawl-delay: 1
+
+# Spécifications pour les principaux moteurs de recherche
+User-agent: Googlebot
+Allow: /
+Crawl-delay: 0
+
+User-agent: Bingbot
+Allow: /
+Crawl-delay: 1
+
+User-agent: Yandex
+Allow: /
+Crawl-delay: 2
+
+# Bloquer les robots malveillants
+User-agent: AhrefsBot
+Disallow: /
+
+User-agent: SemrushBot
+Disallow: /
+
+User-agent: DotBot
+Disallow: /
+
+User-agent: MJ12bot
+Disallow: /
