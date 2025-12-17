@@ -6,34 +6,23 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     
     <!-- SEO Meta Tags -->
-    <title>Halt Group Djibouti | Leading Construction, Equipment & Services Since 2007</title>
-    <meta name="description" content="Halt Group - Premier construction, equipment rental, procurement, and manpower services in Djibouti. Trusted partner for development in Middle East & Africa since 2007.">
-    <meta name="keywords" content="halt group djibouti, construction djibouti, equipment rental djibouti, procurement services, manpower djibouti, halt construction, dmx construction, ead interim">
+    <title>Gallery | Halt Group - Our Projects & Achievements in Djibouti</title>
+    <meta name="description" content="Browse through Halt Group's impressive portfolio of completed construction, equipment, and infrastructure projects in Djibouti. View our work excellence since 2007.">
+    <meta name="keywords" content="halt group projects, construction gallery djibouti, equipment rental photos, infrastructure projects, building works djibouti, halt group portfolio">
     <meta name="author" content="Halt Group">
-    <link rel="canonical" href="https://www.haltgroup.dj/">
-    
-    <!-- Geo Tags -->
-    <meta name="geo.region" content="DJ">
-    <meta name="geo.placename" content="Djibouti">
-    <meta name="geo.position" content="11.5721;43.1456">
-    <meta name="ICBM" content="11.5721, 43.1456">
+    <link rel="canonical" href="https://www.haltgroup.dj/gallery.html">
     
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website">
-    <meta property="og:url" content="https://www.haltgroup.dj/">
-    <meta property="og:site_name" content="Halt Group Djibouti">
-    <meta property="og:title" content="Halt Group | Leading Construction & Services in Djibouti">
-    <meta property="og:description" content="Premier construction, equipment rental, and service provider in Djibouti since 2007. Your trusted partner for development.">
+    <meta property="og:url" content="https://www.haltgroup.dj/gallery.html">
+    <meta property="og:title" content="Gallery | Halt Group - Our Projects & Achievements">
+    <meta property="og:description" content="Explore Halt Group's portfolio of construction, equipment, and infrastructure projects in Djibouti since 2007.">
     <meta property="og:image" content="https://www.haltgroup.dj/assets/images/Logo-Halt.png">
-    <meta property="og:image:width" content="1200">
-    <meta property="og:image:height" content="630">
-    <meta property="og:locale" content="en_US">
     
     <!-- Twitter Card -->
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Halt Group Djibouti | Construction & Services">
-    <meta name="twitter:description" content="Leading construction and service company in Djibouti since 2007">
-    <meta name="twitter:image" content="https://www.haltgroup.dj/assets/images/Logo-Halt.png">
+    <meta name="twitter:title" content="Gallery | Halt Group Djibouti">
+    <meta name="twitter:description" content="Browse our impressive portfolio of completed projects in construction and equipment.">
     
     <!-- Favicon -->
     <link rel="icon" type="image/png" href="assets/images/Logo-Halt.png">
@@ -53,6 +42,7 @@
 <script src="assets/js/animations.js"></script>
 <script src="assets/js/clients-scroll.js"></script>
 <script src="assets/js/enhancements.js"></script> <!-- Nouveau fichier -->
+<script src="assets/js/dynamic-gallery.js"></script>
 </head>
 <body class="echo isset($current_page) ? 'page-' . $current_page : ''; ">
 
@@ -176,471 +166,81 @@
 <div class="progress-bar" id="progress-bar"></div>
 
 <!-- ========================================
-     HERO SECTION
+     PAGE HEADER
      ======================================== -->
-<section class="hero-section">
-    <div class="hero-background" style="background-image: url('assets/images/Background.jpg');"></div>
-    <div class="hero-overlay"></div>
-    <div class="particles"></div>
-    
-    <div class="hero-content">
-        <div class="container">
-            <h1 class="hero-title animate-fade-in reveal-text">
-                Your Partner in <span class="highlight">Middle East & Africa</span>
-            </h1>
-            <p class="hero-subtitle animate-fade-in-delay">
-                Leading Construction and Services in Djibouti since 2007
-            </p>
-            <div class="hero-buttons animate-fade-in-delay-2">
-                <a href="#services" class="btn btn-primary floating">Our Group</a>
-                <a href="#clients" class="btn btn-secondary">Contact Us</a>
-            </div>
-        </div>
-    </div>
-    
-    <div class="scroll-indicator">
-        <div class="scroll-arrow"></div>
-    </div>
-</section>
-
-<!-- ========================================
-     INTRODUCTION SECTION
-     ======================================== -->
-<section class="intro-section" id="about">
+<section class="page-header">
+    <div class="page-header-bg" style="background-image: url('assets/images/Background.jpg');"></div>
+    <div class="page-header-overlay"></div>
     <div class="container">
-        <div class="intro-grid">
-            <div class="intro-content">
-                <div class="section-header">
-                    <h2 class="section-title reveal-text">Your One-Stop Partner for Development</h2>
-                    <div class="title-underline"></div>
-                    <p class="section-subtitle">
-                        Complete solutions for construction, equipment, procurement and workforce management
-                    </p>
-                    <p>
-                        Since 2007, Halt Group has established itself as a leader in the construction 
-                        and services sector in Djibouti, offering excellence across various industries 
-                        with a commitment to quality and innovation.
-                    </p>
-                </div>
-            </div>
-            <div class="intro-image floating">
-                <img src="assets/images/reunion.jpeg" alt="Halt Group Team Meeting" class="intro-img">
+        <div class="page-header-content">
+            <h1 class="page-title">Our Gallery</h1>
+            <div class="breadcrumb">
+                <a href="index.html">Home</a>
+                <span class="separator">/</span>
+                <span class="current">Gallery</span>
             </div>
         </div>
     </div>
 </section>
 
 <!-- ========================================
-     LEADERSHIP SECTION - WITH ACCORDION
+     GALLERY INTRO
      ======================================== -->
-<section class="leadership-section leadership-dark">
+<section class="gallery-intro-section">
     <div class="container">
-        <div class="leadership-grid">
-            <div class="leadership-image">
-                <img src="assets/images/Boss.jpeg" alt="Halt Group CEO signing strategic partnership" class="leadership-img">
-            </div>
-            <div class="leadership-content">
-                <div class="section-header">
-                    <h2 class="section-title reveal-text">What We Stand For</h2>
-                    <div class="title-underline"></div>
-                    <p class="section-subtitle">
-                        Our core values drive everything we do
-                    </p>
-                </div>
-                
-                <!-- ACCORDION -->
-                <div class="accordion">
-                    
-                    <!-- Accordion Item 1: GROWTH -->
-                    <div class="accordion-item">
-                        <button class="accordion-header">
-                            <span class="accordion-title">GROWTH</span>
-                            <svg class="accordion-arrow" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                <polyline points="6 9 12 15 18 9"></polyline>
-                            </svg>
-                        </button>
-                        <div class="accordion-content">
-                            <p>
-                                We have steadily grown our group since 2007 and have augmented our growth 
-                                with international partnerships and professional expertise. Our robust past 
-                                performance gives us a competitive advantage.
-                            </p>
-                        </div>
-                    </div>
-                    
-                    <!-- Accordion Item 2: CAPACITY -->
-                    <div class="accordion-item">
-                        <button class="accordion-header">
-                            <span class="accordion-title">CAPACITY</span>
-                            <svg class="accordion-arrow" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                <polyline points="6 9 12 15 18 9"></polyline>
-                            </svg>
-                        </button>
-                        <div class="accordion-content">
-                            <p>
-                                We have established and manage a reputable group of companies that provide: 
-                                turn-key solutions in construction, timely procurement, certified ready-mix 
-                                concrete, laboratory services, and heavy equipment rental.
-                            </p>
-                        </div>
-                    </div>
-                    
-                    <!-- Accordion Item 3: VALUES -->
-                    <div class="accordion-item">
-                        <button class="accordion-header">
-                            <span class="accordion-title">VALUES</span>
-                            <svg class="accordion-arrow" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                <polyline points="6 9 12 15 18 9"></polyline>
-                            </svg>
-                        </button>
-                        <div class="accordion-content">
-                            <p>
-                                We seek to provide high quality services in all of our operations and have 
-                                experienced professionals and a program management team overseeing as the 
-                                driver toward growth and progress. We value honesty, quality, and professionalism.
-                            </p>
-                        </div>
-                    </div>
-                    
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-
-<!-- ========================================
-     CORE VALUES SECTION
-     ======================================== -->
-<section class="values-section">
-    <div class="container">
-        <div class="section-header text-center">
-            <h2 class="section-title reveal-text">Why Choose Halt Group?</h2>
+        <div class="gallery-intro-content">
+            <h2 class="section-title">Our Completed Works</h2>
             <div class="title-underline center"></div>
-        </div>
-        
-        <div class="values-grid">
-            <div class="value-card animate-on-scroll">
-                <div class="value-icon">
-                    <svg width="60" height="60" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                        <path d="M12 2L2 7l10 5 10-5-10-5z"></path>
-                        <path d="M2 17l10 5 10-5"></path>
-                        <path d="M2 12l10 5 10-5"></path>
-                    </svg>
-                </div>
-                <h3 class="value-title">Competitiveness</h3>
-                <p class="value-description">
-                    Competitively priced materials and services with established supply chain 
-                    and experienced professional leadership with connections in Djiboutian 
-                    government and Customs/Port authorities.
-                </p>
-            </div>
-
-            <div class="value-card animate-on-scroll delay-1">
-                <div class="value-icon">
-                    <svg width="60" height="60" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                        <rect x="2" y="5" width="20" height="14" rx="2"></rect>
-                        <line x1="2" y1="10" x2="22" y2="10"></line>
-                    </svg>
-                </div>
-                <h3 class="value-title">Financing Facility</h3>
-                <p class="value-description">
-                    HALT GROUP's sterling reputation for enabling healthy economic profit and 
-                    ensuring quality work has gained it access to credit, capital and loan 
-                    support from numerous notable financial institutions.
-                </p>
-            </div>
-
-            <div class="value-card animate-on-scroll delay-2">
-                <div class="value-icon">
-                    <svg width="60" height="60" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                        <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path>
-                        <polyline points="9 22 9 12 15 12 15 22"></polyline>
-                    </svg>
-                </div>
-                <h3 class="value-title">About Our Group</h3>
-                <p class="value-description">
-                    Since 2007, Halt Group has successfully grown in scope and scale of services 
-                    in Djibouti. We are in the top tier of construction and service companies 
-                    in Djibouti.
-                </p>
-            </div>
-        </div>
-    </div>
-</section>
-
-<!-- ========================================
-     CLIENTS SECTION
-     ======================================== -->
-<section class="clients-section" id="clients" >
-    <div class="container">
-        <div class="section-header text-center">
-            <h2 class="section-title reveal-text">They Trusted Us</h2>
-            <div class="title-underline center"></div>
-            <p class="section-subtitle">
-                Partnering with leading organizations worldwide to deliver excellence
-            </p>
-        </div>
-        
-        <div class="clients-scroll-container">
-            <div class="clients-scroll-track">
-                <div class="client-logo">
-                    <img src="assets/images/caddell.jpg" alt="Caddell Construction" loading="lazy">
-                </div>
-                <div class="client-logo">
-                    <img src="assets/images/DMIX.png" alt="DMX Construction" loading="lazy">
-                </div>
-                <div class="client-logo">
-                    <img src="assets/images/EAD.png" alt="EAD Interim" loading="lazy">
-                </div>
-                <div class="client-logo">
-                    <img src="assets/images/fabtech.png" alt="Fabtech" loading="lazy">
-                </div>
-                <div class="client-logo">
-                    <img src="assets/images/kbr.png" alt="KBR" loading="lazy">
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-
-<!-- ========================================
-     SERVICES SECTION
-     ======================================== -->
-<section class="services-section" id="services">
-    <div class="container">
-        <div class="section-header text-center">
-            <h2 class="section-title reveal-text">The Group's Operations</h2>
-            <div class="title-underline center"></div>
-            <p class="section-subtitle">
-                Four specialized divisions offering excellence across all sectors
-            </p>
-        </div>
-
-        <div class="services-grid">
-            <div class="service-card animate-on-scroll">
-                <div class="service-icon-wrapper">
-                    <div class="service-icon">🏗️</div>
-                </div>
-                <h3 class="service-title">Construction</h3>
-                <p class="service-description">
-                    Providing Design, Civil and Structural Construction, Roads, 
-                    Concrete, MEP, and Port Construction services.
-                </p>
-                <a href="gallery.html" class="service-link">
-                    Learn More <span class="arrow">→</span>
-                </a>
-            </div>
-
-            <div class="service-card animate-on-scroll delay-1">
-                <div class="service-icon-wrapper">
-                    <div class="service-icon">🚜</div>
-                </div>
-                <h3 class="service-title">Equipment</h3>
-                <p class="service-description">
-                    Extensive fleet of heavy equipment and trucks available for use 
-                    on projects throughout Djibouti.
-                </p>
-                <a href="gallery.html" class="service-link">
-                    Learn More <span class="arrow">→</span>
-                </a>
-            </div>
-
-            <div class="service-card animate-on-scroll delay-2">
-                <div class="service-icon-wrapper">
-                    <div class="service-icon">📦</div>
-                </div>
-                <h3 class="service-title">Procurement</h3>
-                <p class="service-description">
-                    Providing timely international procurement and customs services. 
-                    You need it, we will get it!
-                </p>
-                <a href="gallery.html" class="service-link">
-                    Learn More <span class="arrow">→</span>
-                </a>
-            </div>
-
-            <div class="service-card animate-on-scroll delay-3">
-                <div class="service-icon-wrapper">
-                    <div class="service-icon">👷</div>
-                </div>
-                <h3 class="service-title">E.A.D Interim</h3>
-                <p class="service-description">
-                    Leading manpower supply agency for local skilled labor. We provide 
-                    the people your job needs to be successful.
-                </p>
-                <a href="gallery.html" class="service-link">
-                    Learn More <span class="arrow">→</span>
-                </a>
-            </div>
-        </div>
-        
-    </div>
-</section>
-
-<!-- ========================================
-     SUBSIDIARIES INTRO SECTION
-     ======================================== -->
-<section class="subsidiaries-intro-section">
-    <div class="container">
-        <div class="subsidiaries-intro-content">
-            <span class="subsidiaries-label">Explore</span>
-            <h2 class="subsidiaries-title">Our Subsidiaries</h2>
-            <p class="subsidiaries-description">
-                Discover our specialized companies, each dedicated to excellence in their respective fields
+            <p class="gallery-intro-text">
+                Discover the remarkable projects we've accomplished through the combined strength of our 
+                state-of-the-art equipment and our highly skilled workforce. From large-scale infrastructure 
+                developments to precision construction work, our team has consistently delivered excellence 
+                across diverse sectors. Each project showcases our commitment to quality, innovation, and 
+                timely delivery. Our modern fleet of heavy equipment, paired with the expertise of our 
+                competent professionals, enables us to tackle the most challenging construction tasks with 
+                confidence and efficiency. Browse through our portfolio to witness the tangible results of 
+                our dedication to transforming visions into reality across Djibouti and beyond.
             </p>
         </div>
     </div>
 </section>
 
 <!-- ========================================
-     IMAGE SWITCHER SECTION - Filiales
+     GALLERY FILTERS
      ======================================== -->
-<section class="features-service-section">
-    <div class="features-service-wrapper">
-        
-        <!-- Item 1: Construction and Equipment -->
-        <div class="features-service-item active" data-image="assets/images/construction-bg.jpg">
-            <div class="features-service-content">
-                <div class="features-service-title">
-                    <span class="features-service-number">01</span>
-                    <h4>Halt Construction <br> & Equipment</h4>
-                </div>
-                <div class="features-service-desc">
-                    <p>Accelerate your innovation and transformation with a fully integrated suite of capabilities that puts digital at the heart of everything you do.</p>
-                </div>
-                <div class="features-service-link">
-                    <a href="https://nomadedev-east-africa.github.io/Halt-Construction-Equipement2/" target="_blank" class="btn-details">
-                        <span class="btn-text">Visit Website</span>
-                        <i class="arrow">→</i>
-                    </a>
-                </div>
-                <div class="features-service-overlay"></div>
-            </div>
-        </div>
-        
-        <!-- Item 2: Concrete plant D-MIX -->
-        <div class="features-service-item" data-image="assets/images/concrete-bg.jpg">
-            <div class="features-service-content">
-                <div class="features-service-title">
-                    <span class="features-service-number">02</span>
-                    <h4>D-MIX <br> Concrete Plant</h4>
-                </div>
-                <div class="features-service-desc">
-                    <p>Accelerate your innovation and transformation with a fully integrated suite of capabilities that puts digital at the heart of everything you do.</p>
-                </div>
-                <div class="features-service-link">
-                    <a href="https://nomadedev-east-africa.github.io/DMIX/" target="_blank" class="btn-details">
-                        <span class="btn-text">Visit Website</span>
-                        <i class="arrow">→</i>
-                    </a>
-                </div>
-                <div class="features-service-overlay"></div>
-            </div>
-        </div>
-        
-        <!-- Item 3: Interim agency E.A.D -->
-        <div class="features-service-item" data-image="assets/images/ead-bg.jpg">
-            <div class="features-service-content">
-                <div class="features-service-title">
-                    <span class="features-service-number">03</span>
-                    <h4>E.A.D <br> Interim Agency</h4>
-                </div>
-                <div class="features-service-desc">
-                    <p>Accelerate your innovation and transformation with a fully integrated suite of capabilities that puts digital at the heart of everything you do.</p>
-                </div>
-                <div class="features-service-link">
-                    <a href="https://nomadedev-east-africa.github.io/EAD/" target="_blank" class="btn-details">
-                        <span class="btn-text">Visit Website</span>
-                        <i class="arrow">→</i>
-                    </a>
-                </div>
-                <div class="features-service-overlay"></div>
-            </div>
-        </div>
-        
-    </div>
-    
-    <!-- Background Image Container -->
-    <div class="features-service-bg" style="background-image: url('assets/images/construction-bg.jpg');"></div>
-</section>
-
-<!-- ========================================
-     PASSION & EXCELLENCE SECTION
-     ======================================== -->
-<section class="passion-section">
+<section class="gallery-section">
     <div class="container">
-        <div class="passion-wrapper">
-            
-            <!-- Left Column: Content -->
-            <div class="passion-content">
-                <span class="passion-label">PASSION AND EXCELLENCE</span>
-                
-                <!-- Icon Box 1: A passion for results -->
-                <div class="icon-box-2">
-                    <div class="icon-main">
-                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                            <circle cx="12" cy="8" r="7"></circle>
-                            <polyline points="8.21 13.89 7 23 12 20 17 23 15.79 13.88"></polyline>
-                        </svg>
-                    </div>
-                    <div class="content-box">
-                        <h5 class="title-box">A passion for results</h5>
-                        <p>We approach each project with dedication and commitment to quality, working closely with our clients to bring their vision to life. Our team of skilled architects, engineers, and builders use the latest technology and techniques to deliver the most efficient and cost-effective solutions while maintaining the highest level of craftsmanship. We take pride in our work and are driven by the satisfaction of seeing our client's vision come to fruition.</p>
-                    </div>
-                </div>
-                
-                <!-- Icon Box 2: Quality services -->
-                <div class="icon-box-2">
-                    <div class="icon-main">
-                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                            <polyline points="22 12 18 12 15 21 9 3 6 12 2 12"></polyline>
-                        </svg>
-                    </div>
-                    <div class="content-box">
-                        <h5 class="title-box">Quality services</h5>
-                        <p>We understand that the quality of our work is of the utmost importance to our clients. That's why we take a meticulous approach to every aspect of the construction process, from the initial design phase to the final walk-through. We pay attention to every detail and use only the best materials to ensure that our finished product is of the highest quality.</p>
-                    </div>
-                </div>
-                
-            </div>
-            
+        
+        <!-- Filter Buttons -->
+        <div class="gallery-filters">
+            <button class="filter-btn active" data-filter="all">All Projects</button>
+            <button class="filter-btn" data-filter="construction">Construction</button>
+            <button class="filter-btn" data-filter="equipment">Equipment</button>
+            <button class="filter-btn" data-filter="procurement">Procurement</button>
+            <button class="filter-btn" data-filter="manpower">Manpower</button>
         </div>
-    </div>
-    
-    <!-- Image qui déborde à droite -->
-    <div class="passion-image-overflow">
-        <img src="assets/images/jeuneHomme.png" alt="Construction Professional" class="passion-img">
-    </div>
-</section>
-
-<!-- ========================================
-     STATS SECTION - Collée sous Passion
-     ======================================== -->
-<section class="stats-section">
-    <div class="container">
-        <div class="stats-container">
-            <div class="stats-grid">
-                <div class="stat-item animate-on-scroll">
-                    <div class="stat-number" data-target="50">0</div>
-                    <div class="stat-label">Clients</div>
-                </div>
-
-                <div class="stat-item animate-on-scroll delay-1">
-                    <div class="stat-number" data-target="100">0</div>
-                    <div class="stat-label">Completed Projects</div>
-                </div>
-
-                <div class="stat-item animate-on-scroll delay-2">
-                    <div class="stat-number" data-target="15">0</div>
-                    <div class="stat-label">Years of Experience</div>
-                </div>
-
-                <div class="stat-item animate-on-scroll delay-3">
-                    <div class="stat-number" data-target="20">0</div>
-                    <div class="stat-label">Partners</div>
-                </div>
+        
+        <!-- Gallery Grid - Chargement dynamique par JavaScript -->
+        <div class="gallery-grid">
+            <!-- Les images seront chargées automatiquement par dynamic-gallery.js -->
+            <div class="loading-message" style="grid-column: 1 / -1; text-align: center; padding: 60px 20px;">
+                <div class="loader" style="margin: 0 auto 20px; width: 50px; height: 50px; border: 4px solid #f3f3f3; border-top: 4px solid #e74c3c; border-radius: 50%; animation: spin 1s linear infinite;"></div>
+                <p style="color: #666; font-size: 16px;">Loading projects...</p>
             </div>
         </div>
+        
+        <style>
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+        </style>
+        
+        <!-- Load More Button -->
+        <div class="gallery-load-more">
+            <button class="btn btn-primary btn-large">Load More Projects</button>
+        </div>
+        
     </div>
 </section>
 </main>
@@ -737,7 +337,7 @@
                                 <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
                                 <polyline points="22,6 12,13 2,6"></polyline>
                             </svg>
-                            <span><a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="93fafdf5fcd3fbf2ffe7f4e1fce6e3bef7f9faf1fce6e7fabdf0fcfe">[email&#160;protected]</a></span>
+                            <span><a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="d3babdb5bc93bbb2bfa7b4a1bca6a3feb7b9bab1bca6a7bafdb0bcbe">[email&#160;protected]</a></span>
                         </li>
                     </ul>
                 </div>
@@ -771,12 +371,12 @@
 </button>
 
 <!-- JavaScript Files -->
-<!-- JavaScript Files -->
-<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
-<script src="assets/js/main.js"></script>
+</script>
 <script src="assets/js/animations.js"></script>
 <script src="assets/js/clients-scroll.js"></script>
 <script src="assets/js/enhancements.js"></script>
+<script src="assets/js/dynamic-gallery.js"></script>
 
 </body>
 </html>
+
