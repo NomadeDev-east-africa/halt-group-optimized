@@ -89,7 +89,7 @@ document.addEventListener('DOMContentLoaded', function() {
             ]
         },
         procurement: {
-            count: 6,
+            count: 13,
             folder: 'assets/images/gallery/procurement/',
             prefix: 'procurement',
             extension: 'jpg',
@@ -99,7 +99,13 @@ document.addEventListener('DOMContentLoaded', function() {
                 'Construction Materials',
                 'Supply Management',
                 'Material Procurement',
-                'Equipment Supply'
+                'Equipment Supply',
+                  'DMX',
+                   'DMX',
+                   'DMX',
+                   'DMX',
+                   'DMX'
+            
             ]
         }
     };
