@@ -1,0 +1,89 @@
+/* ========================================
+   ACCORDION STYLES
+   ======================================== */
+
+.accordion {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.accordion-item {
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 8px;
+    overflow: hidden;
+    transition: all 0.3s ease;
+}
+
+.accordion-item:hover {
+    background: rgba(255, 255, 255, 0.08);
+}
+
+.accordion-header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 25px;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.accordion-title {
+    font-size: 18px;
+    font-weight: 700;
+    color: #ffffff;
+    text-align: left;
+    letter-spacing: 1px;
+}
+
+.accordion-arrow {
+    transition: transform 0.3s ease;
+    color: #ffffff;
+    flex-shrink: 0;
+}
+
+.accordion-item.active .accordion-arrow {
+    transform: rotate(180deg);
+}
+
+.accordion-content {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.4s ease;
+}
+
+.accordion-content p {
+    padding: 0 25px 20px 25px;
+    margin: 0;
+    color: rgba(255, 255, 255, 0.8);
+    line-height: 1.8;
+    font-size: 15px;
+}
+
+/* Active state */
+.accordion-item.active {
+    background: rgba(255, 255, 255, 0.1);
+}
+
+.accordion-item.active .accordion-header {
+    background: rgba(255, 255, 255, 0.05);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .accordion-header {
+        padding: 15px 20px;
+    }
+    
+    .accordion-title {
+        font-size: 16px;
+    }
+    
+    .accordion-content p {
+        padding: 0 20px 15px 20px;
+        font-size: 14px;
+    }
+}

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+        http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+
+    <!-- Page d'accueil - Priorité maximale -->
+    <url>
+        <loc>https://www.haltgroup.dj/index.html</loc>
+        <lastmod>2024-12-16</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>1.0</priority>
+    </url>
+
+    <!-- Page À propos -->
+    <url>
+        <loc>https://www.haltgroup.dj/about.html</loc>
+        <lastmod>2024-12-16</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+
+    <!-- Page Galerie -->
+    <url>
+        <loc>https://www.haltgroup.dj/gallery.html</loc>
+        <lastmod>2024-12-16</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.9</priority>
+    </url>
+
+    <!-- Sites enfants - Halt Construction -->
+    <url>
+        <loc>https://www.haltconstruction.dj/</loc>
+        <lastmod>2024-12-16</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+
+    <!-- Sites enfants - DMX Construction -->
+    <url>
+        <loc>https://www.dmxconstruction.dj/</loc>
+        <lastmod>2024-12-16</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+
+    <!-- Sites enfants - EAD Interim -->
+    <url>
+        <loc>https://www.eadinterim.dj/</loc>
+        <lastmod>2024-12-16</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+
+</urlset>
